@@ -1,0 +1,20 @@
+{
+  "name": "ternary-plot",
+  "version": "1.0.0",
+  "description": "web component of a ternary plot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ternary",
+    "plot",
+    "web",
+    "component"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hybrids": "^4.0.2"
+  }
+}
