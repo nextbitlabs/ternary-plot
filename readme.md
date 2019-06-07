@@ -10,7 +10,7 @@ In an html file
 <html>
 	<head>
 		<script type="module">
-			import 'ternary-plot/ternary-plot.umd.js';
+			import 'https://unpkg.com/ternary-plot@latest/dist/ternary-plot.umd.js';
 		</script>
 	</head>
 	<body>
