@@ -1,6 +1,15 @@
 # ternary-plot
 
+![Latest Release](https://badgen.net/github/release/nextbitlabs/ternary-plot)
+
 Web component to implement a ternary plot.
+
+<div align="center">
+
+
+<img width="400px" src="image.png">
+</div>
+
 
 ## Usage
 
