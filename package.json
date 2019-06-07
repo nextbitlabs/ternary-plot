@@ -9,7 +9,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "pretest": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo src/*",
+    "lint-fix": "xo --fix src/*"
   },
   "keywords": [
     "ternary",
@@ -31,7 +32,8 @@
     "hybrids": "^4.0.2",
     "rollup": "^1.14.3",
     "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-node-resolve": "^5.0.1"
+    "rollup-plugin-node-resolve": "^5.0.1",
+    "xo": "^0.24.0"
   },
   "files": [
     "dist"

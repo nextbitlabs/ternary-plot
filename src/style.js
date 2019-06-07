@@ -1,4 +1,4 @@
-import { html } from 'hybrids';
+import {html} from 'hybrids';
 
 export default html`
 	<style>
