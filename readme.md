@@ -64,6 +64,14 @@ In an html file
 </html>
 ```
 
+With npm:
+
+```
+npm i ternary-plot
+```
+
+See [demo](https://stackblitz.com/edit/ternary-plot-example).
+
 ## License
 
 MIT
