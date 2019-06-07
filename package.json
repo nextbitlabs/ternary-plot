@@ -1,7 +1,7 @@
 {
   "name": "ternary-plot",
   "version": "1.0.0",
-  "description": "web component of a ternary plot.",
+  "description": "web component to implement a ternary plot.",
   "main": "dist/ternary-plot.cjs.js",
   "module": "dist/ternary-plot.esm.js",
   "browser": "dist/ternary-plot.umd.js",
@@ -14,11 +14,19 @@
   "keywords": [
     "ternary",
     "plot",
-    "web",
+    "chart",
+    "webcomponent",
     "component"
   ],
-  "author": "",
+  "author": {
+    "name": "Riccardo Scalco",
+    "email": "riccardoscalco@gmail.com",
+    "url": "http://riccardoscalco.github.io/"
+  },
   "license": "MIT",
+  "repository": "nextbitlabs/ternary-plot",
+  "homepage": "https://github.com/nextbitlabs/ternary-plot/",
+  "bugs": "https://github.com/nextbitlabs/ternary-plot/issues",
   "devDependencies": {
     "hybrids": "^4.0.2",
     "rollup": "^1.14.3",
