@@ -6,7 +6,7 @@ Web component to implement a ternary plot.
 
 In an html file
 
-```
+```html
 <html>
   <head>
     <script type="module">
