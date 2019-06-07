@@ -2,8 +2,13 @@
   "name": "ternary-plot",
   "version": "1.0.0",
   "description": "web component of a ternary plot.",
-  "main": "index.js",
+  "main": "dist/ternary-plot.cjs.js",
+  "module": "dist/ternary-plot.esm.js",
+  "browser": "dist/ternary-plot.umd.js",
   "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,8 +18,14 @@
     "component"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "hybrids": "^4.0.2"
-  }
+    "hybrids": "^4.0.2",
+    "rollup": "^1.14.3",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.1"
+  },
+  "files": [
+    "dist"
+  ]
 }

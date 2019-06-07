@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="module" src="index.js" defer></script>
+		<script type="module" src="dist/ternary-plot.umd.js" defer></script>
 	</head>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+		/*
+			CSS custom properties penetrate the Shadow DOM.
+			They are useful to provide custom styling.
+		*/
+		ternary-plot {
+			--font-size: 13px;
+			--font-family: 'Roboto Mono', monospace;
+		}
+	</style>
 	<body>
-		<h1>Test</h1>
 		<ternary-plot side="400"></ternary-plot>
 	</body>
+	<script>
+		const element = document.querySelector('ternary-plot');
+		// Set data as a dynamic property.
+		element.data = getRandomData(20);
+
+		function getRandomData (length) {
+			return {
+				titles: {
+					bottom: "Variable A",
+					right: "Variable B",
+					left: "Variable C",
+				},
+				data: Array.from({length}, getRandomDatum),
+			};
+		}
+
+		function getRandomDatum () {
+			const a = Math.random();
+			const b = Math.random();
+			const c = Math.random();
+			const sum = a + b + c;
+			return {
+				bottom: a / sum,
+				right: b / sum,
+				left: c / sum
+			};
+		}
+	</script>
 </html>
