@@ -70,7 +70,7 @@ With npm:
 npm i ternary-plot
 ```
 
-See [demo](https://stackblitz.com/edit/ternary-plot-example).
+See [demo1](https://stackblitz.com/edit/ternary-plot-example) and [demo2](https://stackblitz.com/edit/ternary-plot-example-random-data).
 
 ## License
 
