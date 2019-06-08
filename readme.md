@@ -36,6 +36,7 @@ In an html file
     }
   </style>
   <body>
+    <!-- side attribute set SVG width and height in pixels -->
     <ternary-plot side="400"></ternary-plot>
   </body>
   <script>
