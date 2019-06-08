@@ -1,6 +1,6 @@
 # <ternary-plot>
 
-![Latest Release](https://badgen.net/github/release/nextbitlabs/ternary-plot)
+![Latest Release](https://badgen.net/github/release/nextbitlabs/ternary-plot) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/ternary-plot)
 
 Web component to implement a ternary plot.
 
