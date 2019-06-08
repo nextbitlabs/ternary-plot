@@ -1,4 +1,4 @@
-# ternary-plot
+# <ternary-plot>
 
 ![Latest Release](https://badgen.net/github/release/nextbitlabs/ternary-plot)
 
