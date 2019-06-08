@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<script type="module">
-			import 'https://unpkg.com/ternary-plot@latest/dist/ternary-plot.umd.js';
+			import './dist/ternary-plot.umd.js';
 		</script>
 	</head>
 	<style>
@@ -27,9 +27,9 @@
 		function getRandomData (length) {
 			return {
 				titles: {
-					bottom: "Variable A",
-					right: "Variable B",
-					left: "Variable C",
+					bottom: "Variable A →",
+					right: "← Variable B",
+					left: "← Variable C",
 				},
 				data: Array.from({length}, getRandomDatum),
 			};

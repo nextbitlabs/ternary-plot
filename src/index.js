@@ -136,7 +136,7 @@ const transformBottomTitle = {
 };
 
 const bottomTitle = {
-	get: ({data}) => `${data.titles.bottom} →`
+	get: ({data}) => `${data.titles.bottom}`
 };
 
 const transformRightTitle = {
@@ -147,7 +147,7 @@ const transformRightTitle = {
 };
 
 const rightTitle = {
-	get: ({data}) => `← ${data.titles.right}`
+	get: ({data}) => `${data.titles.right}`
 };
 
 const transformLeftTitle = {
@@ -158,7 +158,7 @@ const transformLeftTitle = {
 };
 
 const leftTitle = {
-	get: ({data}) => `← ${data.titles.left}`
+	get: ({data}) => `${data.titles.left}`
 };
 
 const pointsCoordinates = {
