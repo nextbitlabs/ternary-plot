@@ -36,7 +36,7 @@ In an html file
     }
   </style>
   <body>
-    <!-- side attribute set SVG width and height in pixels -->
+    <!-- Set SVG width and height in pixels with the side attribute -->
     <ternary-plot side="400"></ternary-plot>
   </body>
   <script>
@@ -49,6 +49,7 @@ In an html file
         left: "Variable C",
       },
       data: [
+        // The sum of bottom, right and left should be 1.
         {
           bottom: 0.3,
           right: 0.4,
