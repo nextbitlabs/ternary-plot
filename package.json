@@ -1,6 +1,6 @@
 {
   "name": "ternary-plot",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "web component to implement a ternary plot.",
   "main": "dist/ternary-plot.cjs.js",
   "module": "dist/ternary-plot.esm.js",
