@@ -18,11 +18,17 @@
 	</style>
 	<body>
 		<ternary-plot side="400"></ternary-plot>
+		<button>show new data</button>
 	</body>
 	<script>
 		const element = document.querySelector('ternary-plot');
-		// Set data as a dynamic property.
-		element.data = getRandomData(20);
+		// element.data = getRandomData(20);
+
+		const button = document.querySelector('button');
+
+		button.addEventListener('click', event => {
+			element.data = getRandomData(20);
+		});
 
 		function getRandomData (length) {
 			return {

@@ -1,4 +1,4 @@
-import {html, define} from 'hybrids';
+import {html, define, property} from 'hybrids';
 import style from './style';
 import {
 	width,
@@ -113,6 +113,14 @@ function render({
 }
 
 export const TernaryPlot = {
+	data: property({
+		titles: {
+			bottom: '',
+			right: '',
+			left: ''
+		},
+		data: []
+	}),
 	side: 400,
 	numberOfTicks: 10,
 	tickLenght: 10,
